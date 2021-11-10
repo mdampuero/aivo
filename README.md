@@ -20,3 +20,5 @@ $ docker exec -ti aivo_apache php bin/console cache:clear --env prod
 $ docker exec -ti aivo_apache composer test test/
 ```
 
+3 - Abrir el browser con la siguiente URL http://localhost/api/v1/albums?q=u2
+
