@@ -2,7 +2,7 @@
 
 El proyecto esta desarrollado en PHP con el Framework Symfony 3.4
 
-A continuación detallo los pasos para hacer funcionar el proyecto de manera local, para esto es necesario contar con Docker y Docker Compose
+A continuación detallo los pasos para hacer funcionar el proyecto de manera local, para esto es necesario contar con Docker y Docker Compose y tener disponible el puerto 80.
 
 1 - Levantar docker y el proyecto
 
