@@ -1,0 +1,8 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# https://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+# This file is auto-generated during the composer install
+parameters:
+    secret: 99b2af404f070f6d849dea5705fd9375b130a628
+    client_id: 'f34ce662bd8d4f07b5a7f18a1f50f535'
+    client_secret: '30565de83b08473c8f6826eedc472838'

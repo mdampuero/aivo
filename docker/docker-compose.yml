@@ -1,0 +1,16 @@
+version: "3"
+services:
+    aivo_apache:
+        build: .
+        container_name: aivo_apache
+        extra_hosts:
+            - "dev.aivo.com:127.0.0.1"
+        volumes:
+            - ../www/:/var/www/html
+            - ./config/php.ini:/usr/local/etc/php/conf.d/php.ini
+            - ./config/dev.aivo.com.conf:/etc/apache2/sites-enabled/dev.aivo.com.conf
+            - ./config/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
+        expose:
+            - 80
+        ports:
+            - 80:80

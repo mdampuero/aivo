@@ -1,0 +1,2 @@
+api_albums:
+    resource: "@AivoApiV1Bundle/Resources/config/albums.yml"

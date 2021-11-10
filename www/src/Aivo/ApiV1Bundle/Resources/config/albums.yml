@@ -1,0 +1,4 @@
+api_albums:
+    path:     /albums
+    defaults: { _controller: AivoApiV1Bundle:Albums:index }
+    methods: [GET]

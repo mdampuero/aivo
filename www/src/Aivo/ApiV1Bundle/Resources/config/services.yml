@@ -1,0 +1,4 @@
+services:
+  apiCall:
+        class: Aivo\ApiV1Bundle\Service\ApiCall
+        arguments: [%client_id%,%client_secret%]
